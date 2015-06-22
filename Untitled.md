@@ -112,7 +112,7 @@ Use the `printf()` function.
 |**\A(\Z)**|Match start (end) of string (also see ^ and $ above)|\ADear
 * if a caret ( ^ ) is the firstcharacter immediately inside the open left bracket, this symbolizes a directive not to match any of the characters in the given character set.
 
-	```
+	```python
 z.[0-9]			"z" followed by any character then followed by a single digit[r-u][env-y]	"r" "s," "t" or "u" followed by "e," "n," "v," "w," "x," or "y"[us]			followed by "u" or "s"[^aeiou]		A non-vowel character (Exercise: Why do we say "non-vowels" rather than "consonants"?)[^\t\n]			Not a TAB or NEWLINE["-a]			In an ASCII system, all characters that fall between '"' and "a," i.e., between ordinals 34 and 97
 	```
 	
